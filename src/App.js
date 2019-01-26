@@ -53,7 +53,7 @@ export default class App extends Component {
     return (
       <div className='App'>
       <header>Flash Fo Yo Azz</header>
-      <h1>Lets Get Learnt!</h1>
+      <h1 className= 'App'>Lets Get Learnt!</h1>
         <div className='card-row'> 
           <Card question={this.state.currentCard.name}
                 answer={this.state.currentCard.id}
